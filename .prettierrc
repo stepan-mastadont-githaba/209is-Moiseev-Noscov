@@ -1,0 +1,7 @@
+{
+    "printwidth": 80,
+    "tabwith": 3,
+    "semi": true,
+    "singleQuote": false,
+    "bracketSpacing": false
+}
