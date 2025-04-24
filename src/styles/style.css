@@ -2,7 +2,14 @@
     margin: 0%;
 }
 
-class header {
-    background-color: red
-    
+.header {
+    background-color: brown;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: max-content;
+    background-color: aqua ;
 }
