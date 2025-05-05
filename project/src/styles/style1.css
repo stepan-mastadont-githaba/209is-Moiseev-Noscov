@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+body, html {
+  height: 100%;
+  background: url('../../assets/images/6463651486.jpg') no-repeat center center/cover;
+  position: relative;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.7);
+  display: flex;
+  align-items: center;
+  padding: 10px 30px;
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+  opacity: 0.7;
+}
+
+header .left-icon svg {
+  width: 32px;
+  height: 32px;
+  fill: #333;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+  margin: 0 auto;
+  font-weight: 600;
+  font-size: 16px;
+  color: #333;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #007BFF;
+}
+
+header .right-section {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: black;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+header .right-section svg {
+  width: 24px;
+  height: 24px;
+  fill: #333;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 60px;
+  user-select: none;
+  text-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+
+main h1 {
+  font-size: 4rem;
+  margin-bottom: 15px;
+  font-weight: 900;
+}
+
+main p {
+  font-size: 1.5rem;
+  max-width: 600px;
+  font-weight: 500;
+}
+
+.bottom-right-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  fill: #fff;
+  filter: drop-shadow(0 0 4px rgba(0,0,0,0.6));
+  transition: transform 0.3s ease;
+  z-index: 1000;
+}
+
+.bottom-right-icon:hover {
+  transform: scale(1.1);
+}
+/* Убираем заголовок, меняем отступы */
+.catalog-page {
+  max-width: 1920px;
+  margin: 40px auto 80px auto;
+  padding: 0 60px;
+  position: relative;
+  z-index: 10;
+  overflow: hidden;
+}
+
+/* Описание категории, текст без заголовка */
+.catalog-description {
+  max-width: 900px;
+  margin-bottom: 40px;
+}
+
+.catalog-description p {
+  color: #333;
+  font-size: 18px;
+  line-height: 1.5;
+  user-select: text;
+}
+
+/* Остальное - слайдер сохраняем без изменений */
