@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея - KarelTour</title>
+    <link rel="stylesheet" href="styles/galerea.css">
+</head>
+<body>
+    <div class="background-overlay"></div>
+    <div class="background"></div>
+    <div class="container">
+        <div class="header">
+            <h1>Галерея</h1>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Все</button>
+                <button class="filter-btn" data-filter="ruskeala">Рускеала</button>
+                <button class="filter-btn" data-filter="kizhi">Кижи</button>
+                <button class="filter-btn" data-filter="kivach">Кивач</button>
+                <div class="underline"></div>
+            </div>
+        </div>
+
+        <div class="gallery-layout">
+            <!-- Все -->
+            <div class="top-row all">
+                <img src="https://i.pinimg.com/originals/ea/dc/04/eadc04496f8aafaac5231e73763accf0.jpg" alt="Карелия" class="wide-img">
+                <img src="https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_668923dabf000b1123a0a849_668942067b018800af9b0189/scale_1200" alt="Карелия" class="tall-img">
+            </div>
+            <div class="bottom-row all">
+                <img src="https://sun9-71.userapi.com/s/v1/ig2/xQt0dvX1QsqlQneWVbip-8bcydLwB037FI5_IDi8O8rIsqJctepf1hYgdtpUxQCBAakfZPT0oxRnySXgn90ptsKj.jpg?quality=95&as=32x20,48x31,72x46,108x69,160x102,240x153,360x230,480x306,540x345,640x408,720x459,1080x689,1280x817,1332x850&from=bu&u=5_HkInuTRuyX_6t8r2EXs-WQhAD2sAZUxmUbXFlXNH4&cs=807x515" alt="Карелия" class="square-img">
+                <img src="https://avatars.mds.yandex.net/i?id=b013394457acfc6e9db5dbb024b7f62f_l-5658951-images-thumbs&n=13" alt="Карелия" class="square-img">
+                <img src="https://avatars.mds.yandex.net/i?id=97f81124346c65e191aca7611fff23e7_l-8283357-images-thumbs&n=13" alt="Карелия" class="square-img">
+            </div>
+
+            <!-- Рускеала -->
+            <div class="top-row ruskeala hidden">
+                <img src="https://www.ecosociety.ru/wp-content/uploads/2023/10/1210232.jpg" alt="Рускеала" class="wide-img">
+                <img src="https://7d9e88a8-f178-4098-bea5-48d960920605.selcdn.net/74e9a9ab-bd73-4062-85ed-712eacf6bec2/-/resize/x600/-/quality/smart_retina/" alt="Рускеала" class="tall-img">
+            </div>
+            <div class="bottom-row ruskeala hidden">
+                <img src="https://avatars.mds.yandex.net/i?id=8c2f9507d153b340b2534311dc6fc415ca3234d6-6311157-images-thumbs&n=13" alt="Рускеала" class="square-img">
+                <img src="https://sun9-36.userapi.com/impg/1Z5XzOd0R5_fCc6wBy2CmMnWeceeaVhwlrlZMA/-astM4PW8lQ.jpg?size=807x439&quality=95&sign=7c3cdda5ed187be942e331d4676fe54f&c_uniq_tag=vS_ONR2GNLl_nuTaTMVIORYc2IACbb2J1t0MiYP9-ag&type=album" alt="Рускеала" class="square-img">
+                <img src="https://avatars.mds.yandex.net/get-altay/11421964/2a0000018c33d73e3eacfcee60ff9a4129e2/XXXL" alt="Рускеала" class="square-img">
+            </div>
+
+            <!-- Кижи -->
+            <div class="top-row kizhi hidden">
+                <img src="https://avatars.mds.yandex.net/i?id=569e4e62dd24d1ef0fe45650b6af6517e6f7ff2f-5665339-images-thumbs&n=13" alt="Кижи" class="wide-img">
+                <img src="https://cdn.culture.ru/images/970ca51d-51fc-5d39-b283-7201f5c4c998" alt="Кижи" class="tall-img">
+            </div>
+            <div class="bottom-row kizhi hidden">
+                <img src="https://i.pinimg.com/originals/85/65/c6/8565c6d9a823107d4237349b2da55887.jpg" alt="Кижи" class="square-img">
+                <img src="https://fancytravel.by/images/karelia/kizi/photo_2022-03-27_13-20-13%20(3).jpg" alt="Кижи" class="square-img">
+                <img src="https://avatars.mds.yandex.net/i?id=b47a64940e7bc2bee22dbb0877490d43ee979b32-4821391-images-thumbs&n=13" alt="Кижи" class="square-img">
+            </div>
+
+            <!-- Кивач -->
+            <div class="top-row kivach hidden">
+                <img src="https://avatars.mds.yandex.net/i?id=27c3e48b41e063397079413e5ca4b573933ef308-7066046-images-thumbs&n=13" alt="Кивач" class="wide-img">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Kivach_Waterfalls_Karelia.jpg/640px-Kivach_Waterfalls_Karelia.jpg" alt="Кивач" class="tall-img">
+            </div>
+            <div class="bottom-row kivach hidden">
+                <img src="https://russpass.ru/tour/_next/image?url=https%3A%2F%2Fcms.russpass.ru%2Fv1%2Ffile%2F620d30b89480ec8db06988a4&w=1200&q=75" alt="Кивач" class="square-img">
+                <img src="https://avatars.mds.yandex.net/get-altay/5316761/2a0000017b8d0c0d1c7e6aff8a576fc97aa9/XXXL" alt="Кивач" class="square-img">
+                <img src="https://avatars.mds.yandex.net/i?id=673c49c285829ad2edcc6aac4282cd3fb16d257e-12513672-images-thumbs&n=13" alt="Кивач" class="square-img">
+            </div>
+        </div>
+    </div>
+    <script src="scripts/galerea.js"></script>
+</body>
+</html>
