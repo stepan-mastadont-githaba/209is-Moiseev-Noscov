@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Карелия - Главная</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="styles/site.css">
+</head>
+<body>
+  <!-- Шапка сайта -->
+  <header>
+    <div class="left-icon">
+      <img src="https://cdn-icons-png.flaticon.com/512/2913/2913097.png" alt="Логотип" width="24" height="24">
+    </div>
+    <nav>
+      <a href="#" class="nav-link active" data-page="home">Главная</a>
+      <a href="#" class="nav-link" data-page="catalog">Каталог</a>
+      <a href="#" class="nav-link" data-page="about">О нас</a>
+      <a href="#" class="nav-link" data-page="gallery">Галерея</a>
+      <a href="#" class="nav-link" data-page="contacts">Контакты</a>
+    </nav>
+    <div class="right-section">
+      <img src="https://cdn-icons-png.flaticon.com/512/1077/1077063.png" alt="Профиль" width="24" height="24">
+      <span>Оставить заявку</span>
+    </div>
+  </header>
+
+  <!-- Главная страница -->
+  <div id="home-page" class="page active">
+    <main>
+      <h1>Добро пожаловать в Карелию</h1>
+      <p>Приглашаем в лучшее приключение в вашей жизни, мы создадим ваш отпуск.</p>
+    </main>
+
+    <div class="bottom-right-icon">
+      <img src="https://cdn-icons-png.flaticon.com/512/1358/1358023.png" alt="Поделиться" width="24" height="24">
+    </div>
+  </div>
+
+  <!-- Страница каталога -->
+  <div id="catalog-page" class="page">
+    <section class="category-section">
+      <div class="background-overlay"></div>
+
+      <div class="content-container">
+        <header class="catalog-header">
+          <h1 class="title">КАТАЛОГ</h1>
+          <p class="subtitle">
+            Исследуйте уникальные лесные массивы Карелии. Древние сосновые боры, 
+            таёжные чащи и уникальные экосистемы северного края.
+          </p>
+        </header>
+
+        <div class="slider-container">
+          <div class="slider-track">
+            <div class="card">
+              <img src="https://images.unsplash.com/photo-1605540436563-5bca919ae766?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Сосновый бор">
+              <div class="card-overlay">
+                <h3>Сосновые леса</h3>
+                <p>Вековые сосновые массивы с чистейшим воздухом</p>
+                <a href="#" class="learn-more">Узнать больше <i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+            
+            <div class="card">
+              <img src="https://images.unsplash.com/photo-1586348943529-beaae6c28db9?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Еловый лес">
+              <div class="card-overlay">
+                <h3>Еловые чащи</h3>
+                <p>Густые ельники с уникальной экосистемой</p>
+                <a href="#" class="learn-more">Узнать больше <i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+            
+            <div class="card">
+              <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Лесное озеро">
+              <div class="card-overlay">
+                <h3>Лесные озёра</h3>
+                <p>Кристально чистые водоёмы среди деревьев</p>
+                <a href="#" class="learn-more">Узнать больше <i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+            
+            <div class="card">
+              <img src="https://images.unsplash.com/photo-1473448912268-2022ce9509d8?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Тайга">
+              <div class="card-overlay">
+                <h3>Северная тайга</h3>
+                <p>Нетронутые человеком таёжные просторы</p>
+                <a href="#" class="learn-more">Узнать больше <i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <button id="backBtn">
+          <i class="fas fa-arrow-left"></i> На главную
+        </button>
+      </div>
+    </section>
+  </div>
+  <div id="about-page" class="page">
+    <div class="background-overlay"></div>
+    <div class="background"></div>
+    <div class="container">
+        <h1>О нас</h1>
+        <div class="content-wrapper">
+            <div class="content-box">
+                <div class="text-content">
+                    <p>Компания <span class="green-text">KarelTour</span> основана <span class="green-text">в 2016 году</span>. Мы начинали свою деятельность с небольших туристических походов, экспедициями и просто активным отдыхом.</p>
+                    
+                    <p>За 6 лет существования компании мы:</p>
+                    <ul>
+                        <li>Приняли более 457 000 гостей;</li>
+                        <li>Расширили базу нашего снаряжения;</li>
+                        <li>Обзавелись собственным лагерем;</li>
+                    </ul>
+                    <p>С нами вы увидите прекрасные водопады, скалы, леса и древние петроглифы и всю красоту Карельского края.</p>
+                    <p class="slogan">Ощути Карелию вместе с нами! <span class="logo">🌲</span></p>
+                </div>
+            </div>
+
+            <div class="gallery">
+                <div class="gallery-left">
+                    <img src="https://images.unsplash.com/photo-1605540436563-5bca919ae766" alt="Карельский пейзаж 1" class="gallery-img top-left">
+                    <img src="https://images.unsplash.com/photo-1605540436563-5bca919ae766" alt="Карельский пейзаж 2" class="gallery-img bottom-left">
+                </div>
+                <img src="https://images.unsplash.com/photo-1605540436563-5bca919ae766" alt="Карельский пейзаж 3" class="gallery-img right">
+            </div>
+        </div>
+    </div>
+  </div>
+  <div id="gallery-page" class="page">
+    <div class="background-overlay"></div>
+    <div class="background"></div>
+    <div class="container">
+        <div class="header">
+            <h1>Галерея</h1>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Все</button>
+                <button class="filter-btn" data-filter="ruskeala">Рускеала</button>
+                <button class="filter-btn" data-filter="kizhi">Кижи</button>
+                <button class="filter-btn" data-filter="kivach">Кивач</button>
+                <div class="underline"></div>
+            </div>
+        </div>
+
+        <div class="gallery-layout">
+            <!-- Все -->
+            <div class="top-row all">
+                <img src="https://i.pinimg.com/originals/ea/dc/04/eadc04496f8aafaac5231e73763accf0.jpg" alt="Карелия" class="wide-img">
+                <img src="https://avatars.dzeninfra.ru/get-zen_doc/271828/pub_668923dabf000b1123a0a849_668942067b018800af9b0189/scale_1200" alt="Карелия" class="tall-img">
+            </div>
+            <div class="bottom-row all">
+                <img src="https://sun9-71.userapi.com/s/v1/ig2/xQt0dvX1QsqlQneWVbip-8bcydLwB037FI5_IDi8O8rIsqJctepf1hYgdtpUxQCBAakfZPT0oxRnySXgn90ptsKj.jpg?quality=95&as=32x20,48x31,72x46,108x69,160x102,240x153,360x230,480x306,540x345,640x408,720x459,1080x689,1280x817,1332x850&from=bu&u=5_HkInuTRuyX_6t8r2EXs-WQhAD2sAZUxmUbXFlXNH4&cs=807x515" alt="Карелия" class="square-img">
+                <img src="https://avatars.mds.yandex.net/i?id=b013394457acfc6e9db5dbb024b7f62f_l-5658951-images-thumbs&n=13" alt="Карелия" class="square-img">
+                <img src="https://avatars.mds.yandex.net/i?id=97f81124346c65e191aca7611fff23e7_l-8283357-images-thumbs&n=13" alt="Карелия" class="square-img">
+            </div>
+
+            <!-- Рускеала -->
+            <div class="top-row ruskeala hidden">
+                <img src="https://www.ecosociety.ru/wp-content/uploads/2023/10/1210232.jpg" alt="Рускеала" class="wide-img">
+                <img src="https://7d9e88a8-f178-4098-bea5-48d960920605.selcdn.net/74e9a9ab-bd73-4062-85ed-712eacf6bec2/-/resize/x600/-/quality/smart_retina/" alt="Рускеала" class="tall-img">
+            </div>
+            <div class="bottom-row ruskeala hidden">
+                <img src="https://avatars.mds.yandex.net/i?id=8c2f9507d153b340b2534311dc6fc415ca3234d6-6311157-images-thumbs&n=13" alt="Рускеала" class="square-img">
+                <img src="https://sun9-36.userapi.com/impg/1Z5XzOd0R5_fCc6wBy2CmMnWeceeaVhwlrlZMA/-astM4PW8lQ.jpg?size=807x439&quality=95&sign=7c3cdda5ed187be942e331d4676fe54f&c_uniq_tag=vS_ONR2GNLl_nuTaTMVIORYc2IACbb2J1t0MiYP9-ag&type=album" alt="Рускеала" class="square-img">
+                <img src="https://avatars.mds.yandex.net/get-altay/11421964/2a0000018c33d73e3eacfcee60ff9a4129e2/XXXL" alt="Рускеала" class="square-img">
+            </div>
+
+            <!-- Кижи -->
+            <div class="top-row kizhi hidden">
+                <img src="https://avatars.mds.yandex.net/i?id=569e4e62dd24d1ef0fe45650b6af6517e6f7ff2f-5665339-images-thumbs&n=13" alt="Кижи" class="wide-img">
+                <img src="https://cdn.culture.ru/images/970ca51d-51fc-5d39-b283-7201f5c4c998" alt="Кижи" class="tall-img">
+            </div>
+            <div class="bottom-row kizhi hidden">
+                <img src="https://i.pinimg.com/originals/85/65/c6/8565c6d9a823107d4237349b2da55887.jpg" alt="Кижи" class="square-img">
+                <img src="https://fancytravel.by/images/karelia/kizi/photo_2022-03-27_13-20-13%20(3).jpg" alt="Кижи" class="square-img">
+                <img src="https://avatars.mds.yandex.net/i?id=b47a64940e7bc2bee22dbb0877490d43ee979b32-4821391-images-thumbs&n=13" alt="Кижи" class="square-img">
+            </div>
+
+            <!-- Кивач -->
+            <div class="top-row kivach hidden">
+                <img src="https://avatars.mds.yandex.net/i?id=27c3e48b41e063397079413e5ca4b573933ef308-7066046-images-thumbs&n=13" alt="Кивач" class="wide-img">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Kivach_Waterfalls_Karelia.jpg/640px-Kivach_Waterfalls_Karelia.jpg" alt="Кивач" class="tall-img">
+            </div>
+            <div class="bottom-row kivach hidden">
+                <img src="https://russpass.ru/tour/_next/image?url=https%3A%2F%2Fcms.russpass.ru%2Fv1%2Ffile%2F620d30b89480ec8db06988a4&w=1200&q=75" alt="Кивач" class="square-img">
+                <img src="https://avatars.mds.yandex.net/get-altay/5316761/2a0000017b8d0c0d1c7e6aff8a576fc97aa9/XXXL" alt="Кивач" class="square-img">
+                <img src="https://avatars.mds.yandex.net/i?id=673c49c285829ad2edcc6aac4282cd3fb16d257e-12513672-images-thumbs&n=13" alt="Кивач" class="square-img">
+            </div>
+        </div>
+    </div>
+    <script src="scripts/galerea.js"></script>
+  </div>
+  <div id="contacts-page" class="page">
+    <div class="container">
+        <div class="background-overlay"></div>
+        <h1 class="title">Контакты</h1>
+        <div class="image-and-square">
+            <img class="imagee" src="https://sun9-24.userapi.com/impf/jQbwJJGCgjf9GJi1IJ8pWmEoB-O3C817eR1ApA/n6CtkKhWePg.jpg?size=512x512&quality=95&sign=b712a37b368ff4ca077564dcd22ea1d9&type=album" alt="Контактное изображение">
+            <div class="square">
+                <p class="centeredd-text">Остались вопросы?</p>
+                <p class="white-text">Адрес:</p>
+                <p class="green-text">Ул. Кирова, д.30, офис 27</p>
+                <p class="white-text">Контактный телефон:</p>
+                <p class="green-text">+7 (954) 654-78-91</p>
+                <p class="green-text">Круглосуточно, без выходных</p>
+                <p class="centered-text">ВСЕГДА БУДЕМ РАДЫ ОТВЕТИТЬ!</p>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <script>
+    // Навигация между страницами
+    document.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const pageId = this.getAttribute('data-page');
+        showPage(pageId);
+      });
+    });
+
+    // Кнопка "На главную"
+    document.getElementById('backBtn').addEventListener('click', function() {
+      showPage('home');
+    });
+
+    // Функция показа страницы
+    function showPage(pageId) {
+      // Скрыть все страницы
+      document.querySelectorAll('.page').forEach(page => {
+        page.style.display = 'none';
+        page.classList.remove('active');
+      });
+      
+      // Показать выбранную страницу
+      const activePage = document.getElementById(`${pageId}-page`);
+      activePage.style.display = 'block';
+      activePage.classList.add('active');
+      
+      // Обновить активную ссылку в навигации
+      document.querySelectorAll('.nav-link').forEach(navLink => {
+        navLink.classList.remove('active');
+        if (navLink.getAttribute('data-page') === pageId) {
+          navLink.classList.add('active');
+        }
+      });
+      
+      // Прокрутить вверх
+      window.scrollTo(0, 0);
+    }
+    showPage('home');
+  </script>
+</body>
+</html>

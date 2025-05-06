@@ -127,10 +127,8 @@ body {
         height: 3px;
         background-color: #2e8b57;
         transition: all 0.3s;
-        width: 40px; /* Начальная ширина для кнопки "Все" */
+        width: 40px;
     }
-    
-    /* Галерея */
     .gallery-layout {
         flex: 1;
         display: flex;
