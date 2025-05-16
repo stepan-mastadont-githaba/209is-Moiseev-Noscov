@@ -920,3 +920,18 @@ body {
                 url('https://avatars.mds.yandex.net/i?id=782ef71303ebf43c513b1896380e7359_l-8903262-images-thumbs&n=13') no-repeat center center/cover;
     z-index: -1;
 }
+
+.posts-container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  flex-wrap: nowrap;
+
+  h1 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
